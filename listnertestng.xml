@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Suite" parallel="tests">
+<listeners>
+    <listener class-name="com.zooview.generics.ListnerImplementation"></listener>
+</listeners>
+  <test  name="Test">
+    <classes>
+      <class name="searchTest.SearchForeignerTicketTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
